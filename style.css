@@ -1,0 +1,38 @@
+/* Reset default styles */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+}
+
+/* Add some padding and border to a container */
+.container {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Style headings */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
