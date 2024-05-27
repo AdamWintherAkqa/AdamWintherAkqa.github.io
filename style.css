@@ -1,38 +1,37 @@
 /* Reset default styles */
-body,
-h1,
-p {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* Set font and background color */
+/* Body styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f0f0f0;
+  color: #333;
   display: flex;
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
-  min-height: 100vh; /* Ensure the body takes up the full viewport height */
+  min-height: 100vh; /* Ensure the content takes up the full height of the viewport */
 }
 
-/* Add some padding and border to a container */
-.container {
+/* Header styles */
+header {
+  background-color: #333;
   padding: 20px;
-  border: 1px solid #ccc;
+  color: #fff;
 }
 
-/* Style headings */
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
+/* Main content styles */
+main {
+  padding: 20px;
 }
 
-/* Style paragraphs */
-p {
-  font-size: 16px;
-  color: #666;
-  line-height: 1.5;
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
 }
